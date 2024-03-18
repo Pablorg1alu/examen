@@ -7,6 +7,10 @@ public class Artista {
 	//Hola
         this.nombreArtista = nombreArtista;
     }
+    
+    public String helloWorld() {
+    	return "Hello World!!";
+    }
 
     @Override
     public String toString() {
